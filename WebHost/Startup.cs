@@ -8,9 +8,9 @@ using NLog.Web;
 using StructureMap;
 using System;
 using System.Diagnostics;
-using WebApplication1.IoC;
+using WebHost.IoC;
 
-namespace WebApplication1
+namespace WebHost
 {
     public class Startup
     {

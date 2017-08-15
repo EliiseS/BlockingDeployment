@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using StructureMap;
 
-namespace WebApplication1.IoC
+namespace WebHost.IoC
 {
     public class RuntimeRegistry : Registry
     {
