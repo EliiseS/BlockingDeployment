@@ -9,7 +9,7 @@ namespace WebHost.IoC
         {
             Scan(x =>
             {
-                x.Assembly(GetType().Assembly);
+                //x.Assembly(GetType().Assembly);
                 //TODO: Below section of commented code causes the issue with deploying
                 x.ConnectImplementationsToTypesClosing(typeof(IRequestHandler<>)); // Handlers with no response
                 x.ConnectImplementationsToTypesClosing(typeof(IRequestHandler<,>)); // Handlers with a response
